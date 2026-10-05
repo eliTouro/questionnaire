@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eli Weiss — CS Quiz</title>
+  <meta name="description" content="Pick one of ten computer science topics, answer 20 timed questions, and see exactly why each answer is right or wrong.">
+  <meta name="theme-color" content="#e9ecf5">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2311132a'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='700' text-anchor='middle' fill='%238f84ff'%3E%3F%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="timebar" id="timebar" aria-hidden="true"><div class="timebar__fill" id="timebar-fill"></div></div>
+
+  <header class="topbar">
+    <a class="brand" href="/" id="brand" aria-label="CS Quiz, back to topics">
+      <span class="brand__mark">?</span><span class="brand__name">CS Quiz</span>
+    </a>
+    <div class="topbar__right" id="topbar-right"></div>
+  </header>
+
+  <main class="stage" id="stage" tabindex="-1">
+    <noscript><p class="noscript">This quiz needs JavaScript. Please enable it and reload.</p></noscript>
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 Eli Weiss</span>
+    <a class="footer__link" href="https://eliweiss.me">More projects</a>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
